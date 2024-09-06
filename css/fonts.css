@@ -1,0 +1,40 @@
+/* --------- Шрифты --------- */
+@font-face {
+  font-family: "Sora";
+  src:
+    url("../fonts/woff/Sora-Regular.woff2") format("woff2"),
+    url("../fonts/woff/Sora-Regular.woff") format("woff");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Sora";
+  src:
+    url("../fonts/woff/Sora-Medium.woff2") format("woff2"),
+    url("../fonts/woff/Sora-Medium.woff") format("woff");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Sora";
+  src:
+    url("../fonts/woff/Sora-SemiBold.woff2") format("woff2"),
+    url("../fonts/woff/Sora-SemiBold.woff") format("woff");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Sora";
+  src:
+    url("../fonts/woff/Sora-Bold.woff2") format("woff2"),
+    url("../fonts/woff/Sora-Bold.woff") format("woff");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+}

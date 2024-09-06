@@ -1,0 +1,39 @@
+/* ---------- Переменные ---------- */
+:root {
+  /* Контейнер */
+  --container-max-width: 1920px;
+  --container-min-width: 320px;
+
+  /* Шрифты (жирность) */
+  --regular: 400;
+  --medium: 500;
+  --semi-Bold: 600;
+  --bold: 700;
+
+  /* Палитра цветов */
+  --theme-body-color: #fff;
+  --primary-color: #2a1454;
+  --secondary-color: #fff;
+  --third-color: #f6f3fc;
+  --fourth-color: #f4f6f8;
+  --fifth-color: #8650f6;
+  --sixth-color: #c2c2c7;
+  --seventh-color: #ddd;
+  --eight-color: #f6f3fc;
+  --nineth-color: #666;
+  --tenth-color: #2a1454;
+  --hover-link-color: #8650f6;
+  --focus-visible-link-color: #8650f6;
+  --active-link-color: #5e32ba;
+  --hover-btn-color: #2a1454;
+  --active-btn-color: #5e32ba;
+  --active-btn-color: #5e32ba;
+  --focus-visible-btn-color: #5e32ba;
+  --hover-color: #fff;
+  --hover-color: #8650f6;
+  --focus-visible-color: #2a1454;
+  --active-color: #5e32ba;
+
+  /* time */
+  --transition-timing: .3s;
+}

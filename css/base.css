@@ -1,0 +1,105 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: var(--container-min-width);
+  font-family: "Sora", Arial, Helvetica, sans-serif;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+}
+
+p {
+  margin-top: 0;
+}
+
+img,
+svg {
+  max-width: 100%;
+}
+
+
+
+/* ---------- Классы общего назначения ---------- */
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: var(--container-max-width);
+  width: 100%;
+}
+
+.list-reset {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 0;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+
+/* ---------- Похожие элементы ---------- */
+/* Загловки */
+.similar-title {}
+
+/* Текст */
+.similar-descr {
+  font-size: 20px;
+  font-weight: var(--regular);
+  line-height: 150%;
+  color: var(--primary-color);
+}
+
+/* Кнопки и ссылки */
+.similar-btn {}
+
+/* Скрытие */
+.visually-hidden {
+  position: absolute;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+
+/* Удаление полностью */
+.reset {
+  display: none;
+}
